@@ -22,11 +22,11 @@ $use_rewrite = 1;
 /**
  * language/style/output variables
  */
-$l_url			= 'URL';
-$l_nourl		= '<strong>没有输入URL地址</strong>';
-$l_yoururl		= '<strong>你的短网址:</strong>';
-$l_invalidurl	= '<strong>无效的URL.</strong>';
-$l_createurl	= '生成短网址';
+$l_url = 'URL';
+$l_nourl = '<strong>没有输入URL地址</strong>';
+$l_yoururl = '<strong>你的短网址:</strong>';
+$l_invalidurl = '<strong>无效的URL.</strong>';
+$l_createurl = '生成短网址';
 function getLineNum($filePath, $target, $first = false){
 	$fp = fopen($filePath, "r");
 	$lineNumArr = array();
