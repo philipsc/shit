@@ -1,4 +1,9 @@
 <?php
+/**
+ * 如果使用url重写的话
+ * 会生成的短链形式是http://域名/s/****** 的
+ * 要在伪静态规则中添加相应的规则否则会报404错误
+ */
 error_reporting(E_ALL^E_NOTICE);
 header('Content-type: text/html;charset=utf-8');
 ?>
